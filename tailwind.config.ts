@@ -19,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			screens: {
+				'custom-lg': '1000px',
+			},
 			fontFamily: {
 				'default': ['Instrument Serif', 'serif'],
 				'display': ['Instrument Serif', 'serif'],
