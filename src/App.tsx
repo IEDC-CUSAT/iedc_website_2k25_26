@@ -32,11 +32,11 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <div className="sticky top-0 z-50 bg-white shadow-md">
+  <div className="sticky top-0 z-50 bg-transparent shadow-md">
           <Header />
           <NavigationMenu />
         </div>
-        <main className="pt-2 min-h-screen bg-background text-foreground">
+  <main className="pt-2 min-h-screen bg-transparent text-foreground">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About_us />} />

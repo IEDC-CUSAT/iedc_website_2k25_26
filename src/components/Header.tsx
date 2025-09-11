@@ -44,7 +44,7 @@ const Header = () => {
   const { time, ampm } = formatTime(currentDate);
 
   return (
-    <header className="px-6 sm:px-12 mb-2 bg-white">
+    <header className="px-6 sm:px-12 mb-2 bg-transparent">
       <div className="max-w-7xl mx-auto flex flex-row justify-between items-center h-24">
         {isMobile && <MobileNavigationMenu />}
         {!isMobile && (

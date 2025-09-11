@@ -65,7 +65,7 @@ const NavigationMenu = () => {
   }
 
   return (
-    <nav className="relative z-20 py-2">
+    <nav className="relative z-20 py-2 bg-transparent">
       <div className="max-w-7xl mx-auto px-6">
         <div className="w-full border-t border-[#3d2a1a] mx-auto"></div>
 
